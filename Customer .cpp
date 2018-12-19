@@ -23,7 +23,7 @@ Customer::Customer()
 
 void Customer::rand_name()
 {
-   string file_name = "simpson_names.dat";
+   string file_name = "simpson_names.dat"; //make sure file string .dat
    ifstream file;
    file.clear();
    file.open(file_name.c_str());
